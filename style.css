@@ -1,20 +1,31 @@
-body {
-    color: rgb(13, 0, 255);
-    background: rgb(255, 80, 80);
+body{
+    background: blue;
 }
 
-.heading {
-    width: 85%;
-    font-size: 25px;
+#heading {
+    font-style: italic;
+    color: rgb(255, 140, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-#camera 
-{ border: 2px dashed black;
- width: 350px; 
- height: 300px; 
+h4 {
+    color: red;
 }
 
-.name_of_objects , #result_object_name,#result_object_accuracy
-{
-    color: rgb(132, 0, 255);
+.name_of_people  {
+    background: yellow;
+    color: red;
+    width: 70%;
+    height: 5%;
+}
+
+#label_webcam {
+    color: red;
+    
+}
+
+#webcam {
+    width: 300px;
+    height: 250px;
+    border: 2px dashed black;
 }
